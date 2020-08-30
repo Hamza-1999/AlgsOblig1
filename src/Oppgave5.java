@@ -28,7 +28,7 @@ public static void rotasjon(char[] a)
 }
 
 
-
+//
 
     public static void main(String args[]) {
 
