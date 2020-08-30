@@ -8,7 +8,7 @@ public static void rotasjon(char[] a)
 
    for (int i=0;i<n;i++){ // Roterer den antall ganger N ganger til høyre
 
-      int sisteElement = a[a.length-1]; // lagrer siste element av arrayet
+      int sisteElement = a[a.length-1]; // lagrer siste element av arrayet, må minus 1 for åfinne det siste element.
 
        for(j=a.length-1;j>0;j--){ // Ny for loop i en for loop der man shifter elementene,1 og 1
            a[j] = a[j-1];
